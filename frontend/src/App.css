@@ -1,0 +1,45 @@
+body {
+    background-color: #fbfbfb;
+  }
+ 
+.title {
+    margin: 30px;
+    padding: 0px;
+    font-family: "Asap", sans-serif;   
+    position: relative;
+    left: 35%;
+    width: 35%;
+    height: 100%;
+    font-size: 30px;
+    font-weight: 600;
+    color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text; 
+    background-image: repeating-radial-gradient(circle farthest-side at 5px 10px,#6846ac 10%, #0a0a0a 30%, #6e9171);
+  }
+.iframe{
+      margin: 100px;
+      display: flex;
+      margin-top: 1px;
+      justify-content: center;
+  }
+
+.inputfile {
+    left: 30%;
+}
+
+.show_result{
+    display: flex;
+    justify-content: center;  
+}
+.upload {
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.back{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
